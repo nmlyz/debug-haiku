@@ -2,16 +2,16 @@
 """Write one haiku about debugging to /output/entry.txt.
 
 The haiku is fixed text: three lines in the 5-7-5 syllable shape,
-65 characters plus a trailing newline. Standard library only,
+73 characters including the trailing newline. Standard library only,
 no network access, deterministic output.
 """
 
 import os
 
 HAIKU = (
-    "cannot reproduce\n"
-    "I press the button three times\n"
-    "there it is again\n"
+    "the code was not wrong\n"
+    "i rewrote it all three times\n"
+    "the test was the bug\n"
 )
 
 
